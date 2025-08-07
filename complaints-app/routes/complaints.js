@@ -1,14 +1,14 @@
 import express from 'express';
+import { createComplaint, getAllComplaint } from '../db/connect.js';
 
 const router = express.Router()
 
-router.post('/admin',(req, res) =>{
-    console.log('hi admin')
-    res.send('hi from admin')
+router.post('/admin',async (req, res) =>{
+    await getAllComplaint()
 })
 
-router.post('/complaint',(req,res) =>{
-    console.log('hi complaint')
+router.post('/complaint',async (req,res) =>{
+    await createComplaint(req.body)
     res.send('hi from complaint')
 })
 

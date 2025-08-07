@@ -11,18 +11,18 @@
     </header>
     <main>
         <section>
-            <form action="">
+            <form method="post" action="http://localhost:3000/idf/complaint">
             <select name="choise" id="">
                 <option value="food">אוכל</option>
                 <option value="equipment">ציוד</option>
                 <option value="commands">פקודות</option>
                 <option value="other">אחר</option>
             </select>
-            <textarea name="choise" placeholder="מה קרה"></textarea>
+            <textarea name="complaint" placeholder="מה קרה"></textarea>
             <section>
-                <button id="b3">לשליחה</button>
+                <button id="b3" type="submit">לשליחה</button>
             </section>
-        </form>
+            </form>
         </section>
     </main>
 </body>
