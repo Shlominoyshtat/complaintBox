@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <main>
+        <header id="header">
+            <h1>מערכת תלונות אנומימיות</h1>
+        </header>
+        <aside>
+            <h3>אתר זה מיועד לשליחת תלונות על הצבא שלנו😆</h3>
+        </aside>
+        <section id="icon1">
+            <form method="post" action="http://localhost:3000/idf/complaint">
+                <button>להגשת התלונה</button>
+            </form>
+        </section>
+        <section id="icon2">
+            <form method="post" action="http://localhost:3000/idf/admin">
+                <input type="password">
+                <button id="b2">מפקד</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
