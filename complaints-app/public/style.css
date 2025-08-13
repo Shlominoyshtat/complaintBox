@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    border: 5px solid bisque;
+    height: 800px;
+}
+
+#icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+#icon2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
